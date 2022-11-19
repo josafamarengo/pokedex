@@ -16,14 +16,23 @@
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-    <section>
-        <h1>Pokemón</h1>
+    <section class="content">
+        <h1>Pokedex</h1>
 
-        <ol class="flex justify-between items-center w-1/2 m-0-auto h-screen">
-            <li>Bubasaur</li>
-            <li>Charmander</li>
-            <li>Squirtle</li>
+        <ol id="pokemonList" class="pokemons">
+            <!-- ..... Pokemons here ..... -->
         </ol>
+
+        <div class="pagination">
+            <button id="loadMoreButton" type="button">
+                Load More
+            </button>
+        </div>
     </section>
+
+    <!-- Nosso JS -->
+    <script src="./js/pokemon-model.js" defer></script>
+    <script src="./js/poke-api.js" defer></script>
+    <script src="./js/main.js" defer></script>
 </body>
 </html>

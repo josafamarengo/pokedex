@@ -1,29 +1,31 @@
+@import '../00 - Settings/_spacing';
+
 .m-0-auto {
   margin: 0 auto;
 }
 
-// @each $size, $value in $spacing {
-//   .m-#{$size} {
-//     margin: $value;
-//   }
-//   .mt-#{$size} {
-//     margin-top: $value;
-//   }
-//   .mr-#{$size} {
-//     margin-right: $value;
-//   }
-//   .mb-#{$size} {
-//     margin-bottom: $value;
-//   }
-//   .ml-#{$size} {
-//     margin-left: $value;
-//   }
-//   .mx-#{$size} {
-//     margin-left: $value;
-//     margin-right: $value;
-//   }
-//   .my-#{$size} {
-//     margin-top: $value;
-//     margin-bottom: $value;
-//   }
-// }
+@each $size, $value in $spacing {
+  .m-#{$size} {
+    margin: $value;
+  }
+  .mt-#{$size} {
+    margin-top: $value;
+  }
+  .mr-#{$size} {
+    margin-right: $value;
+  }
+  .mb-#{$size} {
+    margin-bottom: $value;
+  }
+  .ml-#{$size} {
+    margin-left: $value;
+  }
+  .mx-#{$size} {
+    margin-left: $value;
+    margin-right: $value;
+  }
+  .my-#{$size} {
+    margin-top: $value;
+    margin-bottom: $value;
+  }
+}

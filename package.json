@@ -1,9 +1,9 @@
 {
-  "name": "project",
+  "name": "pokedex",
   "version": "0.1.0",
-  "description": "SASS compile|autoprefix|minimize and live-reload dev server using Browsersync for static HTML",
+  "description": "Projeto desenvolvido para o Bootcamp da Digital Innovation One",
   "main": "public/index.html",
-  "author": "5t3ph",
+  "author": "Josafá Marengo",
   "scripts": {
     "build:sass": "sass  --no-source-map src/sass:public/css",
     "copy:assets": "copyfiles -u 1 ./src/assets/**/* public",
@@ -27,5 +27,9 @@
     "onchange": "^7.1.0",
     "postcss-cli": "^9.1.0",
     "sass": "^1.49.8"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "postcss": "^8.4.19"
   }
 }
