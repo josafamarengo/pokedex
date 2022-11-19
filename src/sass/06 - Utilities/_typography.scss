@@ -1,0 +1,35 @@
+.text-2xs {
+  font-size: 0.625rem !important;
+}
+
+.text-xs {
+  font-size: var(--font-step--2) !important;
+}
+
+.text-sm {
+  font-size: var(--font-step--1) !important;
+}
+
+.text-base {
+  font-size: var(--font-step-0) !important;
+}
+
+.text-lg {
+  font-size: var(--font-step-1) !important;
+}
+
+.text-xl {
+  font-size: var(--font-step-2) !important;
+}
+
+.text-2xl {
+  font-size: var(--font-step-3) !important;
+}
+
+.text-3xl {
+  font-size: var(--font-step-4) !important;
+}
+
+.text-4xl {
+  font-size: var(--font-step-5) !important;
+}
